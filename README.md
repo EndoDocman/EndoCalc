@@ -1,0 +1,1 @@
+# EndoCalc Pro: Clinical Growth Engine\n\nA precise, audit-ready growth calculator for Pediatric Endocrinologists.\n\n## Standards\n- WHO Child Growth Standards (0-5y)\n- IAP 2015 Growth Charts (5-18y)\n- Exact-point calculation (No interpolation for epidemiological accuracy)
