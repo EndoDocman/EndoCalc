@@ -75,7 +75,7 @@ export default function EndoCalc() {
               </nav>
 
               <div className="pt-8 border-t border-white/5 space-y-4">
-                <a href="mailto:raam@example.com?subject=EndoCalc%20Alpha%20Feedback" className="w-full flex items-center gap-4 p-4 rounded-2xl border border-amber-400/20 text-amber-400 hover:bg-amber-400/5 transition-all">
+                <a href="mailto:endo.docman@gmail.com?subject=EndoCalc%20Alpha%20Feedback" className="w-full flex items-center gap-4 p-4 rounded-2xl border border-amber-400/20 text-amber-400 hover:bg-amber-400/5 transition-all">
                   <Mail className="w-4 h-4" />
                   <span className="text-[10px] font-bold uppercase tracking-widest">Feedback / Bug</span>
                 </a>
@@ -148,8 +148,8 @@ export default function EndoCalc() {
                 <div><div className="text-[10px] font-black uppercase tracking-widest text-white/40 mb-1">Target Adult Height</div><div className="text-3xl font-black text-white">{targetHeight.toFixed(1)} <span className="text-[10px] opacity-30">cm</span></div></div>
                 <div className="text-right"><div className="text-[10px] font-black uppercase tracking-widest text-white/40 mb-1">BMI</div><div className="text-2xl font-black text-white">{bmi.toFixed(1)}</div></div>
               </div>
-              <div className="p-8 border-2 border-dashed border-white/10 rounded-[2.5rem] flex flex-col items-center justify-center text-white/20 text-[10px] font-black uppercase tracking-[0.5em] h-28 text-center px-4 leading-relaxed">
-                <span className="opacity-40 italic flex items-center gap-2 font-normal lowercase tracking-normal"><Info className="w-3 h-3" /> Technical Alpha: Review for clinical correlation only.</span>
+              <div className="p-8 border-2 border-dashed border-white/20 rounded-[2.5rem] flex flex-col items-center justify-center text-white/60 text-[10px] font-black uppercase tracking-[0.5em] h-28 text-center px-4 leading-relaxed">
+                <span className="flex items-center gap-2 font-bold italic tracking-normal"><Info className="w-3 h-3 text-cyan-400" /> Technical Alpha: Review for clinical correlation only.</span>
               </div>
             </div>
           </motion.div>
@@ -175,8 +175,8 @@ export default function EndoCalc() {
                     <div className="text-5xl font-black tracking-tighter">{splRes ? splRes.sds.toFixed(2) : '---'}</div>
                     <div className="text-lg font-bold opacity-40 mt-4">{splPercentile}</div>
                 </div>
-                <div className="p-8 border border-white/10 bg-white/5 rounded-[2.5rem] flex flex-col items-center justify-center text-white/20 text-[7px] font-black uppercase tracking-[0.2em] text-center px-6 leading-relaxed italic opacity-40">
-                    <ShieldAlert className="w-6 h-6 mb-4 opacity-20" />
+                <div className="p-8 border border-white/20 bg-white/5 rounded-[2.5rem] flex flex-col items-center justify-center text-white text-[7px] font-black uppercase tracking-[0.2em] text-center px-6 leading-relaxed italic">
+                    <ShieldAlert className="w-6 h-6 mb-4 text-amber-400" />
                     <span>Roy A, et al. Stretched Penile Length in Boys from West Bengal, India. IJEM. 2019.</span>
                 </div>
             </div>
